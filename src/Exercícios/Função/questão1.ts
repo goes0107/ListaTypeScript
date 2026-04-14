@@ -2,15 +2,17 @@
 // para calcular a soma de todos os números de 1 até o número fornecido. (Ex: somarAte(4)
 // deve retornar 10, pois 1+2+3+4 = 10).
 
-let soma: number = 0
+export function questao1funcao():void{
+    let soma: number = 0
 
-function somarAte (num: number): any{
-    for (let i = 1; i <= num; i++){
-        soma = soma + i
+    function somarAte (num: number): any{
+        for (let i = 1; i <= num; i++){
+            soma = soma + i
+        }
+        document.writeln(`Resultado da soma: ${soma}`)
     }
-    document.writeln(`Resultado da soma: ${soma}`)
+
+    let numero: number = Number(window.prompt(`Insira um número inteiro positivo`))
+
+    somarAte(numero)
 }
-
-let numero: number = Number(window.prompt(`Insira um número inteiro positivo`))
-
-somarAte(numero)
