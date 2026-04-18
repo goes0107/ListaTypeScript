@@ -9,9 +9,10 @@ document.getElementById("btnEx2.con")?.addEventListener("click", questao2condici
 document.getElementById("btnEx3.con")?.addEventListener("click", questao3condicioal)
 document.getElementById("btnEx4.con")?.addEventListener("click", questao4condicional)
 
-// FUNÇÃO
+// QUESTÕES FUNÇÃO
 import { questao1funcao } from "./Exercícios/Função/questão1.js";
-
+import { questao2funcao } from "./Exercícios/Função/questão2.js";
 
 
 document.getElementById("btnEx1.fun")?.addEventListener("click", questao1funcao)
+document.getElementById("btnEx2.fun")?.addEventListener("click", questao2funcao)

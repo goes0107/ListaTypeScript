@@ -13,19 +13,19 @@ export function questao3condicioal(): void{
     switch(calculadora){
         case 1:
             let soma: number = num1 + num2
-            document.writeln(`Soma dos números digitados: ${soma}`)
+            alert(`Soma dos números digitados: ${soma}`)
             break
         case 2:
             let subtracao: number = num1 - num2
-            document.writeln(`Subtração dos números digitados: ${subtracao}`)
+            alert(`Subtração dos números digitados: ${subtracao}`)
             break
         case 3:
             let multiplicacao: number = num1 * num2
-            document.writeln(`Multiplicação dos números digitados: ${multiplicacao}`)
+            alert(`Multiplicação dos números digitados: ${multiplicacao}`)
             break
         case 4:
             let divisao: number = num1 / num2
-            document.writeln(`Divisão dos números digitados: ${divisao}`)
+            alert(`Divisão dos números digitados: ${divisao}`)
             break
     }
 }

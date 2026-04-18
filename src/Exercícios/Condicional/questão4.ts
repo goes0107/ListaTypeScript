@@ -8,14 +8,14 @@ export function questao4condicional():void{
     let valor2: number = Number(window.prompt(`Insira o segundo número: `))
 
     if (num == valor2){
-        document.writeln(`Números iguais`)
+        alert(`Números iguais`)
     }
 
     else if (num > valor2){
-        document.writeln(`Primeiro é maior`)
+        alert(`Primeiro é maior`)
     }
 
     else if (valor2 > num){
-        document.writeln(`Segundo é maior`)
+        alert(`Segundo é maior`)
     }
 }
