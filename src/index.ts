@@ -9,6 +9,15 @@ document.getElementById("btnEx2.con")?.addEventListener("click", questao2condici
 document.getElementById("btnEx3.con")?.addEventListener("click", questao3condicioal)
 document.getElementById("btnEx4.con")?.addEventListener("click", questao4condicional)
 
+// QUESTÕES REPETIÇÃO
+import { questao1repeticao } from "./Exercícios/Repetição/questão1.js";
+import { questao2repeticao } from "./Exercícios/Repetição/questão2.js";
+import { questao3repeticao } from "./Exercícios/Repetição/questão3.js";
+
+document.getElementById("btnEx1.rep")?.addEventListener("click", questao1repeticao)
+document.getElementById("btnEx2.rep")?.addEventListener("click", questao2repeticao)
+document.getElementById("btnEx3.rep")?.addEventListener("click", questao3repeticao)
+
 // QUESTÕES FUNÇÃO
 import { questao1funcao } from "./Exercícios/Função/questão1.js";
 import { questao2funcao } from "./Exercícios/Função/questão2.js";
