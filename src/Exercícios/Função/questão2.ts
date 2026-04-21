@@ -32,10 +32,10 @@ export function questao2funcao():void{
 
     function emitir_mensagem_alerta(status_alerta: boolean):void{
         if (status_alerta == true){
-            alert(`ALERTA: Temperatura fora da faixa ideal!`)
+            console.log(`ALERTA: Temperatura fora da faixa ideal!`)
         }
         else if (status_alerta == false){
-            alert(`Temperatura dentro da faixa normal.`)
+            console.log(`Temperatura dentro da faixa normal.`)
         }
     }
 

@@ -9,7 +9,7 @@ export function questao1funcao():void{
         for (let i = 1; i <= num; i++){
             soma = soma + i
         }
-        alert(`Resultado da soma: ${soma}`)
+        console.log(`Resultado da soma: ${soma}`)
     }
 
     let numero: number = Number(window.prompt(`Insira um número inteiro positivo`))

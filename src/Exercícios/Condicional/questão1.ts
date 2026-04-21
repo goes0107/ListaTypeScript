@@ -5,10 +5,10 @@ export function questao1condicional():void{
     let num: number = Number(prompt(`Insira um número: `))
 
     if (num % 2 == 0){
-        alert(`O número é par`)
+        console.log(`O número é par`)
     }
 
     else{
-        alert(`O número é ímpar`)
+        console.log(`O número é ímpar`)
     }
 }

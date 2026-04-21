@@ -18,18 +18,18 @@ export function questao2condicional():void{
     let mes: number = Number(window.prompt(`Digite um número entre 1 e 12 que represente cada mês do ano.`))
 
     if ((mes == 1) || (mes == 2) || (mes == 3)){
-        alert(`A estação do ano correspondente ao mês ${mes} é Verão`)
+        console.log(`A estação do ano correspondente ao mês ${mes} é Verão`)
     }
 
     else if ((mes == 4) || (mes == 5) || (mes == 6)){
-        alert(`A estação do ano correspondente ao mês ${mes} é Outono`)
+        console.log(`A estação do ano correspondente ao mês ${mes} é Outono`)
     }
 
     else if ((mes == 7) || (mes == 8) || (mes == 9)){
-        alert(`A estação do ano correspondente ao mês ${mes} é Inverno`)
+        console.log(`A estação do ano correspondente ao mês ${mes} é Inverno`)
     }
 
     else if ((mes == 10) || (mes == 11) || (mes == 12)){
-        alert(`A estação do ano correspondente ao mês ${mes} é Primavera`)
+        console.log(`A estação do ano correspondente ao mês ${mes} é Primavera`)
     }
 }

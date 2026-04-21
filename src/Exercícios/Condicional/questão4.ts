@@ -4,18 +4,18 @@
 // ● ‘Segundo maior’, caso o segundo seja maior que o primeiro.
 
 export function questao4condicional():void{
-    let num: number = Number(window.prompt(`Insira o primeiro número: `))
-    let valor2: number = Number(window.prompt(`Insira o segundo número: `))
+    let num1: number = Number(window.prompt(`Insira o primeiro número: `))
+    let num2: number = Number(window.prompt(`Insira o segundo número: `))
 
-    if (num == valor2){
-        alert(`Números iguais`)
+    if (num1 == num2){
+        console.log(`Números iguais`)
     }
 
-    else if (num > valor2){
-        alert(`Primeiro é maior`)
+    else if (num1 > num2){
+        console.log(`Primeiro é maior`)
     }
 
-    else if (valor2 > num){
-        alert(`Segundo é maior`)
+    else if (num2 > num1){
+        console.log(`Segundo é maior`)
     }
 }
