@@ -13,10 +13,12 @@ document.getElementById("btnEx4.con")?.addEventListener("click", questao4condici
 import { questao1repeticao } from "./Exercícios/Repetição/questão1.js";
 import { questao2repeticao } from "./Exercícios/Repetição/questão2.js";
 import { questao3repeticao } from "./Exercícios/Repetição/questão3.js";
+import { questao4repeticao } from "./Exercícios/Repetição/questão4.js";
 
 document.getElementById("btnEx1.rep")?.addEventListener("click", questao1repeticao)
 document.getElementById("btnEx2.rep")?.addEventListener("click", questao2repeticao)
 document.getElementById("btnEx3.rep")?.addEventListener("click", questao3repeticao)
+document.getElementById("btnEx4.rep")?.addEventListener("click", questao4repeticao)
 
 // QUESTÕES FUNÇÃO
 import { questao1funcao } from "./Exercícios/Função/questão1.js";
