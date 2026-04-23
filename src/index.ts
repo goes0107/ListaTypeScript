@@ -1,6 +1,6 @@
 // QUESTÕES CONDICIONAL
 import { questao1condicional } from "./Exercícios/Condicional/questão1.js";
-import { questao2condicional } from "./Exercícios/Condicional/questao2.js";
+import { questao2condicional } from "./Exercícios/Condicional/questão2.js";
 import { questao3condicioal } from "./Exercícios/Condicional/questão3.js";
 import { questao4condicional } from "./Exercícios/Condicional/questão4.js";
 
@@ -25,18 +25,19 @@ document.getElementById("btnEx5.rep")?.addEventListener("click", questao5repetic
 // QUESTÕES FUNÇÃO
 import { questao1funcao } from "./Exercícios/Função/questão1.js";
 import { questao2funcao } from "./Exercícios/Função/questão2.js";
-
+import { questao3funcao } from "./Exercícios/Função/questão3.js";
+import { questao4funcao } from "./Exercícios/Função/questão4.js";
 
 import { questao5funcao } from "./Exercícios/Função/questão5.js";
-import { questao7funcao } from "./Exercícios/Função/questao7.js";
-import { questao8funcao } from "./Exercícios/Função/questao8.js";
+import { questao7funcao } from "./Exercícios/Função/questão7.js";
+import { questao8funcao } from "./Exercícios/Função/questão8.js";
 import { questao9funcao } from "./Exercícios/Função/questão9.js";
-import { questao10funcao} from "./Exercícios/Função/questao10.js";
+import { questao10funcao} from "./Exercícios/Função/questão10.js";
 
 document.getElementById("btnEx1.fun")?.addEventListener("click", questao1funcao)
 document.getElementById("btnEx2.fun")?.addEventListener("click", questao2funcao)
-
-
+document.getElementById("btnEx3.fun")?.addEventListener("click", questao3funcao)
+document.getElementById("btnEx4.fun")?.addEventListener("click", questao4funcao)
 document.getElementById("btnEx5.fun")?.addEventListener("click", questao5funcao)
 document.getElementById("btnEx7.fun")?.addEventListener("click", questao7funcao)
 document.getElementById("btnEx8.fun")?.addEventListener("click", questao8funcao)
