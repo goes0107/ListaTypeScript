@@ -43,3 +43,8 @@ document.getElementById("btnEx7.fun")?.addEventListener("click", questao7funcao)
 document.getElementById("btnEx8.fun")?.addEventListener("click", questao8funcao)
 document.getElementById("btnEx9.fun")?.addEventListener("click", questao9funcao)
 document.getElementById("btnEx10.fun")?.addEventListener("click", questao10funcao)
+
+// QUESTÕES ARRAY
+import { questao1array } from "./Exercícios/Array/questão1.js";
+
+document.getElementById("btnEx1.arr")?.addEventListener("click", questao1array)
