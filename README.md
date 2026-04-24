@@ -1,2 +1,2 @@
 # ListaTypeScript
-Esse repositório faz parte do primeiro treino de TS
+Esse repositório faz parte da primeira lista de TS
