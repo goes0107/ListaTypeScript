@@ -28,11 +28,11 @@ import { questao2funcao } from "./Exercícios/Função/questão2.js";
 
 
 import { questao5funcao } from "./Exercícios/Função/questão5.js";
-
+import { questao7funcao } from "./Exercícios/Função/questao7.js";
 
 document.getElementById("btnEx1.fun")?.addEventListener("click", questao1funcao)
 document.getElementById("btnEx2.fun")?.addEventListener("click", questao2funcao)
 
 
 document.getElementById("btnEx5.fun")?.addEventListener("click", questao5funcao)
-
+document.getElementById("btnEx7.fun")?.addEventListener("click", questao7funcao)
