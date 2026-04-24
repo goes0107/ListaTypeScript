@@ -3,16 +3,15 @@
 //  Soma total
 
 export function questao1repeticao():void{
-    let contadorTotal: number = 0
-    let somadorNum: number = 0
-    let num: number = Number(prompt(`Insira um número ou digite 0 para encerrar: `))
+    let contNum: number = 0
+    let somaNum: number = 0
+    let num: number = Number(prompt(`Digite um número ou 0 para encerrar: `))
 
     while (num != 0){
-        contadorTotal = contadorTotal + 1
-        somadorNum = somadorNum + num
-
-        num = Number(prompt(`Insira um número ou digite 0 para encerrar: `))
+        contNum = contNum + 1
+        somaNum = somaNum + num
+        num = Number(prompt(`Digite um número ou 0 para encerrar: `))
     }
-    console.log(`Quantidade de números digitados: ${contadorTotal}`)
-    console.log(`Soma total dos números digitados: ${somadorNum}`)
+    console.log(`Quantidade de números digitados: ${contNum}`)
+    console.log(`Soma total dos números digitados: ${somaNum}`)
 }

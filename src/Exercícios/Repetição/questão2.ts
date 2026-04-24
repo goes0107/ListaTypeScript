@@ -2,12 +2,10 @@
 
 export function questao2repeticao():void{
     let num: number = Number(prompt(`Insira o número que você deseja saber a tabuada: `))
-    let resultado: string = ""
     
     for (let i = 1; i <= 10; i++) {
         let multiNum: number = num * i
-        resultado = resultado + `${num} x ${i} = ${multiNum} \n`
+        let resultado: string = `${num} x ${i} = ${multiNum} \n`
+        console.log(resultado)
     }
-    
-    console.log(`TABUADA DO ${num}: \n${resultado}`)
 }
