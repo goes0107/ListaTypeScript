@@ -31,6 +31,7 @@ import { questao5funcao } from "./Exercícios/Função/questão5.js";
 import { questao7funcao } from "./Exercícios/Função/questao7.js";
 import { questao8funcao } from "./Exercícios/Função/questao8.js";
 import { questao9funcao } from "./Exercícios/Função/questão9.js";
+import { questao10funcao} from "./Exercícios/Função/questao10.js";
 
 document.getElementById("btnEx1.fun")?.addEventListener("click", questao1funcao)
 document.getElementById("btnEx2.fun")?.addEventListener("click", questao2funcao)
@@ -40,3 +41,4 @@ document.getElementById("btnEx5.fun")?.addEventListener("click", questao5funcao)
 document.getElementById("btnEx7.fun")?.addEventListener("click", questao7funcao)
 document.getElementById("btnEx8.fun")?.addEventListener("click", questao8funcao)
 document.getElementById("btnEx9.fun")?.addEventListener("click", questao9funcao)
+document.getElementById("btnEx10.fun")?.addEventListener("click", questao10funcao)
