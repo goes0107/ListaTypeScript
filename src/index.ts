@@ -48,7 +48,9 @@ document.getElementById("btnEx10.fun")?.addEventListener("click", questao10funca
 import { questao1array } from "./Exercícios/Array/questão1.js";
 import { questao2array } from "./Exercícios/Array/questão2.js";
 import { questao3array } from "./Exercícios/Array/questão3.js";
+import { questao4array } from "./Exercícios/Array/questão4.js";
 
 document.getElementById("btnEx1.arr")?.addEventListener("click", questao1array)
 document.getElementById("btnEx2.arr")?.addEventListener("click", questao2array)
 document.getElementById("btnEx3.arr")?.addEventListener("click", questao3array)
+document.getElementById("btnEx4.arr")?.addEventListener("click", questao4array)
