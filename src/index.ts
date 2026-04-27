@@ -54,6 +54,7 @@ import { questao5array } from "./Exercícios/Array/questão5.js";
 import { questao6array } from "./Exercícios/Array/questão6.js";
 import { questao7array } from "./Exercícios/Array/questão7.js";
 import { questao8array } from "./Exercícios/Array/questão8.js";
+import { questao9array } from "./Exercícios/Array/questão9.js";
 
 document.getElementById("btnEx1.arr")?.addEventListener("click", questao1array)
 document.getElementById("btnEx2.arr")?.addEventListener("click", questao2array)
@@ -63,3 +64,4 @@ document.getElementById("btnEx5.arr")?.addEventListener("click", questao5array)
 document.getElementById("btnEx6.arr")?.addEventListener("click", questao6array)
 document.getElementById("btnEx7.arr")?.addEventListener("click", questao7array)
 document.getElementById("btnEx8.arr")?.addEventListener("click", questao8array)
+document.getElementById("btnEx9.arr")?.addEventListener("click", questao9array)
